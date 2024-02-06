@@ -1,0 +1,20 @@
+.buttons__hiding {
+    color: teal;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.buttons__finish {
+    color: teal;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 15px;
+}
+
+
+.buttons__finish:disabled {
+    color: gray;
+}

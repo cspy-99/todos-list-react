@@ -1,0 +1,84 @@
+.form__placeButtons {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.form__placeForButtons {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.form__addNewTask {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.form__newTaskButton {
+    padding: 10px;
+    background: hsl(180, 100%, 25%);
+    color: white;
+    border: none;
+    transition: 1s;
+}
+
+.form__newTaskButton:hover {
+    background: hsl(180, 100%, 30%);
+    transform: scale(1.07);
+}
+
+.form__entryField {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form__task {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form__section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.form__header {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+
+@media (max-width: 767px) {
+    .form__addNewTask {
+        grid-template-columns: 1fr;
+    }
+
+    .form__hiddenButtons {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+    }
+
+    .form__placeButtons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__header {
+        align-self: flex-start;
+    }
+
+}
