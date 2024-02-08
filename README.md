@@ -24,7 +24,7 @@ This is a simply to-do list allows recording and tracking tasks that need to be 
 
 - **Smooth Color Transitions:** The application features smooth color transitions to enhance the visual experience for users. Whether it's the dynamic transformation of button colors or other UI elements, the use of smooth transitions contributes to a more polished and aesthetically pleasing user interface.
 
-![sitegif](%PUBLIC_URL%/images/todolist-demo.gif)
+![sitegif](public/images/todolist-demo.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
