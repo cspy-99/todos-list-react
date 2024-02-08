@@ -19,11 +19,12 @@ This is a simply to-do list allows recording and tracking tasks that need to be 
 - **Media Queries for Smaller Devices:** Responsive design ensures optimal viewing on various screen sizes.
 
 - **Task Removal and Task Strikethrough:** Manage tasks easily by removing or marking them as completed.
-<<<<<<< HEAD
 
  - **Immutability in JavaScript:** The project utilizes immutability to ensure that data is treated as immutable, promoting a more predictable and maintainable codebase. Functions such as adding, removing, or toggling tasks are implemented with immutability in mind.
 
 - **Smooth Color Transitions:** The application features smooth color transitions to enhance the visual experience for users. Whether it's the dynamic transformation of button colors or other UI elements, the use of smooth transitions contributes to a more polished and aesthetically pleasing user interface.
+
+![sitegif](%PUBLIC_URL%/images/todolist-demo.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

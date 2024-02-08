@@ -1,8 +1,10 @@
+import "./style.css";
+
 const Section = ({ title, body, extraHeaderContnent }) => (
     <section className="section">
-        <div className="form__section">
-            <div className="form__placeButtons">
-                <h2 className="form__header ">{title}</h2>
+        <div className="section__form">
+            <div className="section__placeButtons">
+                <h2 className="section__header ">{title}</h2>
                 {extraHeaderContnent}
             </div>
             {body}

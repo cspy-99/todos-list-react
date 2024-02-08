@@ -13,11 +13,9 @@
     border-bottom: 1px solid #ddd;
 }
 
-
 .tasks__item--hidden {
     display: none;
 }
-
 
 .tasks__content--done {
     text-decoration: line-through;
