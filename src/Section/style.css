@@ -1,35 +1,32 @@
 .section__form {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-    background: white;
-    box-shadow: 0 0 5px #ddd;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  background: white;
+  box-shadow: 0 0 5px #ddd;
 }
 
 .section__placeButtons {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
 }
 
 .section__header {
-    font-size: 20px;
-    padding: 10px;
-    margin: 0;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
 }
 
 @media (max-width: 767px) {
-    .section__placeButtons {
-        display: flex;
-        flex-direction: column;
-    }
+  .section__placeButtons {
+    display: flex;
+    flex-direction: column;
+  }
 
-
-    .section__header {
-        align-self: flex-start;
-    }
-
-
+  .section__header {
+    align-self: flex-start;
+  }
 }

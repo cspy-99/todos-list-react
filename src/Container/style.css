@@ -1,10 +1,10 @@
 .container__box {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 @media (max-width: 767px) {
-    .container__box {
-        margin: 5%;
-    }
+  .container__box {
+    margin: 5%;
+  }
 }
