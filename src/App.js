@@ -8,8 +8,6 @@ import Section from './Section'
 function App() {
   const [hideDone, setHideDone] = useState(false)
   const [tasks, setTasks] = useState([
-    { id: 1, content: 'zjeść kiebabu', done: true },
-    { id: 2, content: 'ali pomagali', done: false },
   ])
 
   const toggleHideDone = () => {
